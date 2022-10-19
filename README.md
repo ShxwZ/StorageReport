@@ -15,3 +15,5 @@
 ### Example:
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/GenerateReport.gif)
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/Report.jpg)
+
+#### You can use the code as you like 😊
