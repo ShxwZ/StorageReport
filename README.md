@@ -6,4 +6,5 @@
 ## How it works?
 ### You write the path of the directory and then the name you want to put to the report :)
 ### Example:
-[]!()
+[]!(https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/GenerateReport.gif)
+[]!(https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/Report.jpg)
