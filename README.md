@@ -17,7 +17,7 @@
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/Report.jpg)
 
 ## Updated (24/10/2022) method to be more useful
-```
+```java
     public int getNumberOfTypeArchive(File directory, int type) {
         File [] folder = directory.listFiles();
         int counter = 0; 
