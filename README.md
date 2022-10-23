@@ -11,9 +11,32 @@
 
 ## How it works? 👀
 ### You write the path of the directory and then the name you want to put to the report :)
-### (The report will be generate on directory folder 📂)
+### (The report will be generate on directory folder specified 📂)
 ### Example:
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/GenerateReport.gif)
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/Report.jpg)
+
+## Update (24/10/2022) updated method to be more useful
+```
+    public int getNumberOfTypeArchive(File directory, int type) {
+        File [] folder = directory.listFiles();
+        int counter = 0; 
+        if (folder != null) {
+            for (File file : folder) {
+                if (type == FILES){
+                    counter += file.isDirectory() ? getNumberOfTypeArchive(file,type) : 1;
+                    if (!file.isDirectory())
+                        fileList.add(file);
+                } else if (type == FOLDERS){
+                    if (file.isDirectory()) {
+                        counter += 1 + getNumberOfTypeArchive(file,type);
+                        foldersList.add(file);
+                    }
+                }
+            }
+        }
+        return counter;
+    }
+```
 
 #### You can use the code as you like 😊
