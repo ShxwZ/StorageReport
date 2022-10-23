@@ -16,7 +16,7 @@
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/GenerateReport.gif)
 ![](https://github.com/ShxwZ/StorageReport/blob/master/ReadmeResources/Report.jpg)
 
-## Update (24/10/2022) updated method to be more useful
+## Updated (24/10/2022) method to be more useful
 ```
     public int getNumberOfTypeArchive(File directory, int type) {
         File [] folder = directory.listFiles();
