@@ -9,6 +9,11 @@
 - You can customice report name
 - The report will be generate with .txt
 
+## Clone with git
+```
+git clone https://github.com/ShxwZ/StorageReport.git
+```
+
 ## How it works? 👀
 ### You write the path of the directory and then the name you want to put to the report :)
 ### (The report will be generate on directory folder specified 📂)
