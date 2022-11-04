@@ -9,7 +9,7 @@
 - You can customice report name
 - The report will be generate with .txt
 
-## Clone with git
+## Clone with git 📎
 ```
 git clone https://github.com/ShxwZ/StorageReport.git
 ```
